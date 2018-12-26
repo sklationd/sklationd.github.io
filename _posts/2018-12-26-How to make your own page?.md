@@ -1,3 +1,14 @@
+---
+layout : single
+title : "How to make your own page?"
+date : 2018-12-26
+categories : Development
+tags: 
+    - git
+    - github
+    - githubpage
+---
+
 Github Page를 이용한 나만의 페이지 구축
 ================================
 ## 1. Git, Github란
