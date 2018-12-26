@@ -7,6 +7,7 @@ tags:
     - git
     - github
     - githubpage
+comments : true
 ---
 
 Github Page를 이용한 나만의 페이지 구축
@@ -35,14 +36,14 @@ sklationd.github.io
 
 ## 3. Repository 만들기
 이제 github 내부에서 New Repository 라는 버튼을 클릭한다.<br>
-![New repository image](../assets/images/New_Repository.png)<br>
+![New repository image](../../assets/images/New_Repository.png)<br>
 Repository name 항목에 아래와 같이 쓴다.
 ~~~
 username.github.io
 ~~~
-![set_name](../assets/images/set_name.png)<br>
+![set_name](../../assets/images/set_name.png)<br>
 그 뒤 만들어진 Repository에 들어가 Clone or Download를 클릭하면 Url을 복사할 수 있다.<br>
-![clone](../assets/images/clone.png)<br>
+![clone](../../assets/images/clone.png)<br>
 그 뒤에 터미널을 키고 cd 명령어를 이용해 페이지를 위치시키고 싶은 곳으로 이동한다. 나는 
 ~~~
 ~/Document/
