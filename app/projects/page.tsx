@@ -9,6 +9,9 @@ export default function Home() {
         });
     }
 
+    // Sort projects by date (descending)
+    const projects = allProjects.sort((a, b) => (a.from > b.from ? -1 : 1));
+
     return (
         <div className="prose dark:prose-invert">
             {allProjects.map((project) => (
@@ -22,8 +25,13 @@ export default function Home() {
                                 <p>{project.description}</p>
                             )}
                         </div>
-                        <div className="">
-                            <h4>
+                        {/* Vertical seperator */}
+                        <div className="mx-2.5" />
+                        <div className="w-44 flex flex-col items-center justify-center">
+                            {project.organization && (
+                                <h5>{project.organization}</h5>
+                            )}
+                            <h4 className="m-0 p-0">
                                 {formatDate(project.from)} ~{" "}
                                 {formatDate(project.to)}
                             </h4>

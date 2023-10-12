@@ -60,6 +60,9 @@ export const Project = defineDocumentType(() => ({
         description: {
             type: "string",
         },
+        organization: {
+            type: "string",
+        },
         from: {
             type: "date",
             required: true,
